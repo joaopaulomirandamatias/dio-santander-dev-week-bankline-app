@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MovimentcaoNewComponent } from './movimentcao-new.component';
+import { CorrentistaComponent } from './correntista.component';
 
-describe('MovimentcaoNewComponent', () => {
-  let component: MovimentcaoNewComponent;
-  let fixture: ComponentFixture<MovimentcaoNewComponent>;
+describe('CorrentistaComponent', () => {
+  let component: CorrentistaComponent;
+  let fixture: ComponentFixture<CorrentistaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MovimentcaoNewComponent ]
+      declarations: [ CorrentistaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MovimentcaoNewComponent);
+    fixture = TestBed.createComponent(CorrentistaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

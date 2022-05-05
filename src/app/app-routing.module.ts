@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MovimentcaoListComponent } from './components/movimentcao-list/movimentcao-list.component';
-import { MovimentcaoNewComponent } from './components/movimentcao-new/movimentcao-new.component';
 
+import { MovimentacaoNewComponent } from './components/movimentacao-new/movimentacao-new.component';
+import { MovimentacaoListComponent } from './components/movimentacao-list/movimentacao-list.component';
+import { CorrentistaComponent } from './components/correntista/correntista.component';
 
 const routes: Routes = [
 
-  { path: 'movimentacoes', component: MovimentcaoListComponent },
-  { path: 'movimentacoes-new', component: MovimentcaoNewComponent },
+  { path: 'movimentacoes-new', component: MovimentacaoNewComponent },
+  { path: 'movimentacoes', component: MovimentacaoListComponent },
+  { path: 'correntistas', component: CorrentistaComponent },
   { path: '', redirectTo: 'movimentacoes', pathMatch: 'full' },
 
 ];
